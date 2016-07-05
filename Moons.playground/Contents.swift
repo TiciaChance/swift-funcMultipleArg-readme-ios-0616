@@ -41,3 +41,9 @@ planetDescription(planet, numberOfMoons: moons)
 planet = "Mars"
 moons = 2
 planetDescription(planet, numberOfMoons: moons)
+
+func howManyArgumentsCanIHave (name: String, age: Int, location:String) {
+    print("My name is \(name), I am \(age) years old and I'm from \(location) - where are you from?")
+}
+
+howManyArgumentsCanIHave("moby", age: 56, location: "a man has no origin")
